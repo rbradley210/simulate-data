@@ -7,7 +7,7 @@
 x <- rnorm(n=100)
 
 #Simulate response variable with some noise
-y <- 2*x + rnorm(n=100, sd = 0.2)
+y <- x^2 + rnorm(n=100, sd = 0.2)
 
 #Make plots
 plot(x = x, y=y)
